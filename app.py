@@ -267,38 +267,29 @@ Follow these rules:
         return {}, True, raw_text
 
 
-# FUNCTION: Save EACH topic to its own JSON file (unchanged behaviour)
-def save_topic_json(class_name, subject, chapter_name, topic, parsed_json, cleaned_raw, is_error):
-    """Save the JSON (valid or invalid) for each topic."""
-
-    # Sanitize ALL path components for Windows (remove invalid chars: < > : " / \ | ? *)
+# FUNCTION: Save unit-level JSON (one file per unit, not per topic)
+def save_unit_json(class_name, unit_number, unit_data, is_error):
+    """Save the entire unit (all topics) to a single JSON file."""
+    
+    # Sanitize path components for Windows
     def sanitize(name):
         name = re.sub(r'[<>:"/\\|?*]', '_', name)
         name = re.sub(r'[\x00-\x1f\x7f]', '', name)
         name = name.strip(' .')
         return name[:200].strip(' .') if len(name) > 200 else (name or 'unnamed')
 
-    # Construct safe folder structure
+    # Simple structure: generated_content/[Course_Name]/Unit_X.json
     dir_path = TOPIC_OUTPUT_DIR if not is_error else ERROR_OUTPUT_DIR
+    course_dir = dir_path / sanitize(class_name)
+    course_dir.mkdir(parents=True, exist_ok=True)
 
-    class_dir = dir_path / sanitize(class_name)
-    subject_dir = class_dir / sanitize(subject)
-    chapter_dir = subject_dir / sanitize(chapter_name)
-
-    chapter_dir.mkdir(parents=True, exist_ok=True)
-
-    safe_topic_name = sanitize(topic)
-
-    filename = f"{safe_topic_name}.json" if not is_error else f"{safe_topic_name}_ERROR.json"
-    full_path = chapter_dir / filename
+    filename = f"Unit_{unit_number}.json" if not is_error else f"Unit_{unit_number}_ERROR.json"
+    full_path = course_dir / filename
 
     with open(full_path, "w", encoding="utf-8") as f:
-        if is_error or not parsed_json:
-            f.write(cleaned_raw)
-        else:
-            json.dump(parsed_json, f, indent=2, ensure_ascii=False)
+        json.dump(unit_data, f, indent=2, ensure_ascii=False)
 
-    print(f"📄 Saved topic JSON: {full_path}")
+    print(f"📄 Saved: {full_path}")
 
 
 # JSON cleaning utilities (kept same behaviour)
@@ -355,6 +346,7 @@ def clean_and_fix_json(raw_json: str):
 
 
 def _process_topic_seq(class_name, subject, chapter_name, topic):
+    """Generate content for a single topic and return structured data (no saving here)."""
     start = time.time()
 
     # Call LLM
@@ -366,7 +358,6 @@ def _process_topic_seq(class_name, subject, chapter_name, topic):
     if not is_error and content_parsed:
         final_topic_json = content_parsed
         final_is_error = False
-        raw_to_save = raw_text
 
     else:
         # Try our deterministic cleaner
@@ -376,35 +367,20 @@ def _process_topic_seq(class_name, subject, chapter_name, topic):
             # ✅ Cleaned successfully - this is VALID JSON, not an error!
             final_topic_json = cleaned
             final_is_error = False
-            raw_to_save = cleaned_raw
         else:
             # ❌ Truly unparseable - this is an actual error
-            final_topic_json = {"raw_output": raw_text}
+            final_topic_json = {"raw_output": raw_text, "error": True}
             final_is_error = True
-            raw_to_save = raw_text
-
-    # SAVE (THIS WAS YOUR BUG!)
-    try:
-        save_topic_json(
-            class_name,
-            subject,
-            chapter_name,
-            topic,
-            final_topic_json,
-            raw_to_save,      # ✅ ALWAYS SAVE RAW OR CLEANED RAW
-            final_is_error    # ✅ USE FINAL ERROR FLAG
-        )
-    except Exception as e:
-        print(f"❌ Failed to save topic {topic}: {e}")
 
     elapsed = time.time() - start
-    print(f"✅ Done: {class_name} | {subject} | {chapter_name} → {topic} ({elapsed:.1f}s)")
+    print(f"✅ Done: {class_name} | {chapter_name} → {topic} ({elapsed:.1f}s)")
 
     return {
         "name": topic,
         "notes": final_topic_json.get("notes", []),
         "formulas": final_topic_json.get("formulas", []),
         "realworld": final_topic_json.get("realworld", []),
+        "is_error": final_is_error
     }
 
 # MAIN: Build course data from multiple JSON files (sequential)
@@ -461,10 +437,19 @@ def build_course_data(input_folder):
                     }
 
                     # ----- PROCESS TOPICS SEQUENTIALLY -----
+                    unit_has_errors = False
                     for topic in chapter.get("Topics", []):
-                        print(f"🧠 Generating → {readable_class} | {subject} | {chapter_name} → {topic}")
+                        print(f"🧠 Generating → {readable_class} | Unit {chapter_id} → {topic}")
                         topic_entry = _process_topic_seq(readable_class, subject, chapter_name, topic)
                         chapter_entry["topics"].append(topic_entry)
+                        if topic_entry.get("is_error"):
+                            unit_has_errors = True
+
+                    # Save entire unit to a single JSON file
+                    try:
+                        save_unit_json(class_name, chapter_id, chapter_entry, unit_has_errors)
+                    except Exception as e:
+                        print(f"❌ Failed to save Unit {chapter_id}: {e}")
 
                     # Append the full chapter AFTER processing topics
                     course_map[class_name][subject].append(chapter_entry)
