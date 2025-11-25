@@ -1,4 +1,5 @@
-"""PDF Syllabus Extractor
+"""
+PDF Syllabus Extractor
 Extracts syllabus structure from PDF files and generates syllabus.json
 """
 
@@ -16,17 +17,48 @@ def clean_text(text):
 
 def extract_unit_name_from_objective(objective_text):
     """
-    Extract a meaningful, short unit name from the course objective.
-    Examples:
-    - "To gain knowledge on properties and classification of viruses..." -> "Virus Properties & Classification"
-    - "To understand pathogenic microorganisms of viruses..." -> "Viral Pathogenesis & Disease Mechanisms"
-    - "To gain knowledge about reemerging viral infections..." -> "Emerging & Reemerging Viral Infections"
-    - "Understand the types of parasites causing infections..." -> "Parasitic Infections"
-    - "To develop skills in the diagnosis of parasitic infections" -> "Parasitic Diagnosis Techniques"
+    Use LLM to extract a concise, professional unit name from course objective.
+    Falls back to rule-based extraction if LLM fails.
     """
     if not objective_text or len(objective_text.strip()) < 5:
         return "Unit Content"
     
+    # TRY LLM FIRST
+    try:
+        import requests
+        
+        response = requests.post(
+            "http://localhost:11434/api/chat",
+            json={
+                "model": "gemma3:4b",
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": "You are a course curriculum expert. Convert verbose course objectives into short, professional unit titles (3-6 words max). Use '&' instead of 'and'. Be specific and academic. Output ONLY the unit title, nothing else."
+                    },
+                    {
+                        "role": "user",
+                        "content": f"Course Objective: {objective_text}\n\nUnit Title:"
+                    }
+                ],
+                "stream": False
+            },
+            timeout=10
+        )
+        
+        if response.status_code == 200:
+            result = response.json()
+            unit_name = result.get("message", {}).get("content", "").strip()
+            unit_name = unit_name.strip('"\'')
+            unit_name = re.sub(r'^(Unit Title:|Title:)\s*', '', unit_name, flags=re.IGNORECASE)
+            
+            if 3 <= len(unit_name) <= 50 and '\n' not in unit_name:
+                return unit_name
+    
+    except Exception:
+        pass
+    
+    # FALLBACK: Rule-based
     text_lower = objective_text.lower()
     
     # Define patterns and corresponding short names
@@ -89,23 +121,21 @@ def extract_unit_name_from_objective(objective_text):
                     changed = True
                     break
         
-        # Take first 5-8 words and capitalize, but stop at natural boundaries
-        words = text.split()[:8]  # Take up to 8 words
+        # Take first 4-6 words
+        words = text.split()[:6]
         short_name = ' '.join(words)
         
-        # Remove trailing connectors and punctuation
-        while short_name and short_name.split()[-1].lower() in ['and', 'or', 'the', 'of', 'in', 'on', 'with', 'to', 'for', 'by', 'at']:
+        # Remove trailing connectors
+        while short_name and short_name.split()[-1].lower() in ['and', 'or', 'the', 'of', 'in', 'on', 'with', 'to', 'for', 'by', 'at', 'from']:
             short_name = ' '.join(short_name.split()[:-1])
         
-        # Remove trailing commas, periods, and other punctuation
         short_name = short_name.rstrip(',.;:- ')
         
-        # If still empty or too short, return generic name
         if not short_name or len(short_name) < 5:
             return "Unit Content"
         
-        # Capitalize properly (title case)
-        return short_name.title()
+        # Use & and title case
+        return short_name.title().replace(' And ', ' & ')
 
 def extract_syllabus(pdf_path):
     """Extract syllabus data from a PDF file."""
@@ -518,4 +548,3 @@ if __name__ == "__main__":
         print("   Run: python app.py")
     else:
         print("⚠️  Please fix the errors and try again.")
-
