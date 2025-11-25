@@ -1,4 +1,4 @@
-# BSC Course Content Generator
+#Course Content Generator
 
 Generate rich academic study material from syllabus PDFs using a two‑stage pipeline:
 
@@ -174,3 +174,4 @@ If yes to all and still blocked, inspect a failing raw file and simplify the top
 ---
 Enjoy building rich academic datasets locally. 🚀
 #
+
