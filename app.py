@@ -267,9 +267,9 @@ Follow these rules:
         return {}, True, raw_text
 
 
-# FUNCTION: Save unit-level JSON (one file per unit, not per topic)
-def save_unit_json(class_name, unit_number, unit_data, is_error):
-    """Save the entire unit (all topics) to a single JSON file."""
+# FUNCTION: Save topic immediately (incremental saves)
+def save_topic_json(class_name, unit_number, topic_name, topic_data, is_error):
+    """Save each topic immediately as it's generated."""
     
     # Sanitize path components for Windows
     def sanitize(name):
@@ -278,16 +278,17 @@ def save_unit_json(class_name, unit_number, unit_data, is_error):
         name = name.strip(' .')
         return name[:200].strip(' .') if len(name) > 200 else (name or 'unnamed')
 
-    # Simple structure: generated_content/[Course_Name]/Unit_X.json
+    # Structure: generated_content/[Course_Name]/Unit_X_[Topic_Name].json
     dir_path = TOPIC_OUTPUT_DIR if not is_error else ERROR_OUTPUT_DIR
     course_dir = dir_path / sanitize(class_name)
     course_dir.mkdir(parents=True, exist_ok=True)
 
-    filename = f"Unit_{unit_number}.json" if not is_error else f"Unit_{unit_number}_ERROR.json"
+    safe_topic = sanitize(topic_name)
+    filename = f"Unit_{unit_number}_{safe_topic}.json" if not is_error else f"Unit_{unit_number}_{safe_topic}_ERROR.json"
     full_path = course_dir / filename
 
     with open(full_path, "w", encoding="utf-8") as f:
-        json.dump(unit_data, f, indent=2, ensure_ascii=False)
+        json.dump(topic_data, f, indent=2, ensure_ascii=False)
 
     print(f"📄 Saved: {full_path}")
 
@@ -345,8 +346,8 @@ def clean_and_fix_json(raw_json: str):
             return None, cleaned, str(e2)
 
 
-def _process_topic_seq(class_name, subject, chapter_name, topic):
-    """Generate content for a single topic and return structured data (no saving here)."""
+def _process_topic_seq(class_name, subject, chapter_name, topic, unit_number):
+    """Generate content for a single topic, save immediately, and return structured data."""
     start = time.time()
 
     # Call LLM
@@ -373,15 +374,23 @@ def _process_topic_seq(class_name, subject, chapter_name, topic):
             final_is_error = True
 
     elapsed = time.time() - start
-    print(f"✅ Done: {class_name} | {chapter_name} → {topic} ({elapsed:.1f}s)")
+    print(f"✅ Done: {class_name} | Unit {unit_number} → {topic} ({elapsed:.1f}s)")
 
-    return {
+    # SAVE IMMEDIATELY
+    topic_data = {
         "name": topic,
         "notes": final_topic_json.get("notes", []),
         "formulas": final_topic_json.get("formulas", []),
-        "realworld": final_topic_json.get("realworld", []),
-        "is_error": final_is_error
+        "realworld": final_topic_json.get("realworld", [])
     }
+    
+    try:
+        save_topic_json(class_name, unit_number, topic, topic_data, final_is_error)
+    except Exception as e:
+        print(f"❌ Failed to save topic: {e}")
+
+    topic_data["is_error"] = final_is_error
+    return topic_data
 
 # MAIN: Build course data from multiple JSON files (sequential)
 def build_course_data(input_folder):
@@ -436,20 +445,11 @@ def build_course_data(input_folder):
                         "topics": [],
                     }
 
-                    # ----- PROCESS TOPICS SEQUENTIALLY -----
-                    unit_has_errors = False
+                    # ----- PROCESS TOPICS SEQUENTIALLY (each topic saves immediately) -----
                     for topic in chapter.get("Topics", []):
                         print(f"🧠 Generating → {readable_class} | Unit {chapter_id} → {topic}")
-                        topic_entry = _process_topic_seq(readable_class, subject, chapter_name, topic)
+                        topic_entry = _process_topic_seq(readable_class, subject, chapter_name, topic, chapter_id)
                         chapter_entry["topics"].append(topic_entry)
-                        if topic_entry.get("is_error"):
-                            unit_has_errors = True
-
-                    # Save entire unit to a single JSON file
-                    try:
-                        save_unit_json(class_name, chapter_id, chapter_entry, unit_has_errors)
-                    except Exception as e:
-                        print(f"❌ Failed to save Unit {chapter_id}: {e}")
 
                     # Append the full chapter AFTER processing topics
                     course_map[class_name][subject].append(chapter_entry)
