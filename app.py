@@ -271,16 +271,23 @@ Follow these rules:
 def save_topic_json(class_name, subject, chapter_name, topic, parsed_json, cleaned_raw, is_error):
     """Save the JSON (valid or invalid) for each topic."""
 
+    # Sanitize ALL path components for Windows (remove invalid chars: < > : " / \ | ? *)
+    def sanitize(name):
+        name = re.sub(r'[<>:"/\\|?*]', '_', name)
+        name = re.sub(r'[\x00-\x1f\x7f]', '', name)
+        name = name.strip(' .')
+        return name[:200].strip(' .') if len(name) > 200 else (name or 'unnamed')
+
     # Construct safe folder structure
     dir_path = TOPIC_OUTPUT_DIR if not is_error else ERROR_OUTPUT_DIR
 
-    class_dir = dir_path / class_name
-    subject_dir = class_dir / subject
-    chapter_dir = subject_dir / chapter_name
+    class_dir = dir_path / sanitize(class_name)
+    subject_dir = class_dir / sanitize(subject)
+    chapter_dir = subject_dir / sanitize(chapter_name)
 
     chapter_dir.mkdir(parents=True, exist_ok=True)
 
-    safe_topic_name = topic.replace("/", "_").replace("\\", "_")
+    safe_topic_name = sanitize(topic)
 
     filename = f"{safe_topic_name}.json" if not is_error else f"{safe_topic_name}_ERROR.json"
     full_path = chapter_dir / filename
