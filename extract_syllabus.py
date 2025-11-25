@@ -41,6 +41,16 @@ def extract_unit_name_from_objective(objective_text):
         return "Intestinal Parasitic Infections"
     elif "diagnosis of parasitic" in text_lower or "skills in the diagnosis" in text_lower:
         return "Parasitic Diagnosis Techniques"
+    elif "distribution and association of microorganism" in text_lower:
+        return "Microbial Ecology & Distribution"
+    elif "role of microorganism in water pollution" in text_lower or "water pollution and water" in text_lower:
+        return "Water Microbiology & Pollution"
+    elif "microbes as biofertilizers" in text_lower or "biofertilizers and" in text_lower:
+        return "Biofertilizers & Biocontrol"
+    elif "solid waste" in text_lower or "waste treatment" in text_lower or "process of solid" in text_lower:
+        return "Waste Management & Bioremediation"
+    elif "plant diseases" in text_lower or "plant pathology" in text_lower or "pathogens" in text_lower and "plant" in text_lower:
+        return "Plant Pathology & Disease Management"
     else:
         # Fallback: extract key nouns and create a generic name
         # Remove common starter phrases (case-insensitive)
