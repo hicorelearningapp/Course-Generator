@@ -1,0 +1,78 @@
+{
+  "136C11_Fundamentals_Of_Microbiology_Practicals": {
+    "136C11_Fundamentals_Of_Microbiology_Practicals_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Cleaning Of Glass Wares, Glp And Sterilization",
+          "Topics": [
+            "Cleaning of glass wares, Microbiological good laboratory practice and safety.",
+            "Sterilization and assessment of sterility– Autoclave, hot air oven, and membrane filtration."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Media Preparation And Cultural Characteristics",
+          "Topics": [
+            "Media preparation: Liquid media, solid media, semi-solid media, agar slants, agar deeps, agar plates."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Pure Culture Technique",
+          "Topics": [
+            "Preparation of basal, differential, enriched, enrichment, transport, and selective media preparation - Quality control of media, growth supporting properties, sterility check of media.",
+            "Pure culture techniques: Streak plate, pour plate, decimal dilution."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Microscopic Techniques And Staining Methods",
+          "Topics": [
+            "Culture characteristics of microorganisms: Growth on different media, growth characteristics, and description.",
+            "Demonstration of pigment production.",
+            "Microscopy: Light microscopy and bright field microscopy."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Stain And Staining Methods",
+          "Topics": [
+            "Staining techniques: Smear preparation, simple staining, Gram’s staining and endospore staining.",
+            "Study on Microbial Diversity using Hay Infusion Broth-Wet mount to show different types of microbes and hanging drop."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "James G Cappucino and N. Sherman MB(1996). A lab manual Benjamin Cummins, New York 1996.",
+          "Kannan. N (1996). Laboratory manual in General Microbiology. Palani Publications.",
+          "Sundararaj T (2005). Microbiology Lab Manual (1st edition) publications.",
+          "Gunasekaran, P. (1996). Laboratory manual in Microbiology. New Age International",
+          "R C Dubey and D K Maheswari (2002). Practical Microbiology. S. Chand"
+        ],
+        "reference_books": [
+          "Atlas.R (1997). Principles of Microbiology, 2nd Edition, Wm.C.Brown publishers.",
+          "Amita J, Jyotsna A and Vimala V (2018). Microbiology Practical Manual. (1st Edition). Elsevier India",
+          "Talib VH (2019). Handbook Medical Laboratory Technology. (2nd Edition). CBS",
+          "Wheelis M, (2010). Principles of Modern Microbiology, 1st Edition. Jones and Bartlett Publication.",
+          "Lim D. (1998). Microbiology, 2nd Edition, WCB McGraw Hill Publications."
+        ],
+        "web_resources": [
+          "http://www.biologydiscussion.com/micro-biology/sterilisation-and-disinfection- methods-and-principles-microbiology/24403.",
+          "https://www.ebooks.cambridge.org/ebook.jsf?bid=CBO9781139170635",
+          "https://www.grsmu.by/files/file/university/cafedry//files/essential_microbiology.pdf",
+          "https://microbiologyinfo.com/top-and-best-microbiology-books/",
+          "https://www.cliffsnotes.com/studyguides/biology/microbiology/introduction-to- microbiology/a-brief-history-of-microbiology"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Practice sterilization methods; learn to prepare media and their quality control.",
+        "2": "Learn streak plate, pour plate and serial dilution and pigment production of microbes.",
+        "3": "Understand Microscopy methods, different Staining techniques and motility test.",
+        "4": "Observe culture characteristics of microorganisms.",
+        "5": "Study on Microbial Diversity using Hay Infusion Broth-Wet mount"
+      }
+    }
+  }
+}

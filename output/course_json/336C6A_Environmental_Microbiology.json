@@ -1,0 +1,97 @@
+{
+  "336C6A_Environmental_Microbiology": {
+    "336C6A_Environmental_Microbiology_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "To Discuss The Distribution And Association Of Microorganism",
+          "Topics": [
+            "Microorganisms and their Habitats: Structure and function of ecosystems Terrestrial Environment: Soil profile and soil microflora, Microbial succession in decomposition of soil organic matter.",
+            "Role of microorganisms in elemental cycles in nature: Carbon, Nitrogen.",
+            "Aquatic Environment: Microflora of fresh water and marine habitats, factors influencing microbial growth in the aquatic environments.",
+            "Atmosphere: Aeromicroflora and dispersal of microbes, Assessment of air quality, Enumeration of microorganism in air, Air sanitation.",
+            "Extreme Habitats: Extremophiles: Microbes thriving at high & low temperatures, pH, high hydrostatic & osmotic pressures, salinity, & low nutrient levels.",
+            "Predisposing factors for Environmental diseases – infectious (water and air borne) and pollution related, spread and control of these diseases.",
+            "Environmental Protection Agency (EPA) - role in environmental protection."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Role Of Microorganism In Water Pollution And Water",
+          "Topics": [
+            "Water potability: Sources and types of water surface, ground, stored, distilled, mineral and de-mineralized water and their pollution, biological indicators of water Pollution, Eutrophication.",
+            "Conventional Bacteriological standards of Water Quality, MPN index, coliform test, Membrane filtration.",
+            "BOD, COD.",
+            "Advanced molecular methods for water analysis.",
+            "Water borne diseases.",
+            "Central Pollution Control Board (CPCB) standards."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Microbes As Biofertilizers And The Aspects Of Application",
+          "Topics": [
+            "Microbial Interactions: Rhizosphere microflora.",
+            "Concepts of Nitrogen fixation – Symbiotic and asymbiotic nitrogen fixers.",
+            "Brief account of microbial interactions: Symbiosis, neutralism, commensalism, competition, Ammensalism, Synergism, parasitism, and predation.",
+            "General account and Significance of Biofertilizers and biocontrol agents – Bacterial, cyanobacterial, VAM.",
+            "Mass production of Rhizobial biofertilizer.",
+            "Biocontrol agents – Bacterial, viral, fungal."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "To Learn About The Process Of Solid Waste",
+          "Topics": [
+            "Waste treatment and bioremediation: Solid waste management: Sources and types of solid waste, composting, vermicomposting, production of biogas.",
+            "Liquid waste management: Primary, secondary, and tertiary sewage treatment.",
+            "Bioremediation and waste management: Need and scope of bioremediation.",
+            "Degradation of hydrocarbons, oil spills, heavy metals – Chromium, lead, and xenobiotics – PCB."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Various Plant Diseases And Pathogens",
+          "Topics": [
+            "Plant pathology: Mode of entry of pathogens, Microbial enzymes, toxins, growth regulators and suppressor of plant defense in plant diseases.",
+            "Plant defense mechanisms.",
+            "Bacterial diseases – Citrus canker, Blight of paddy.",
+            "Viral disease – TMV, CMV.",
+            "Fungal disease- red rot of sugarcane, Tikka disease.",
+            "Plant disease management."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Joseph C. Daniel. (2006). Environmental aspects of Microbiology 2nd Edition. BrightSun Publications.",
+          "Pradipta. K.M. (2008). Textbook of Environmental Microbiology.I.K.Publishing. House.",
+          "Ramanathan, and Muthukaruppan SM. (2005). Environmental Microbiology.OmSakthiPathipagam, Annamalai Nagar.",
+          "K. Vijaya Ramesh.(2004).Environmental Microbiology. 1st Edition. MJP Publishers.",
+          "SubbaRao.N.S.(2017). Soil Microbiology.4th Edition. Oxford and IBH Publishing Pvt.Ltd."
+        ],
+        "reference_books": [
+          "Dirk, J. Elasas, V., Trevors, J.T., Wellington, E.M.H. (1997). Modern Soil Microbiology, Marcel Dekker INC, New York, Hong Kong.",
+          "EcEldowney S, Hardman D.J., Waite D.J., Waite S.(1993). Pollution: Ecology and Biotreatment – Longman Scientific Technical.",
+          "Mitchel, R.(1992). Environmental Microbiology. Wiley –John Wiley and Sons. Inc. Publications, New York.",
+          "Clescri, L.S., Greenberg, A.E. and Eaton, A.D.(1998). Standard Methods for Examination of Water and Wastewater, 20thEdition. American Public Health Association.",
+          "Atlas, R.M. and Bartha, R.(1992). Microbial Ecology: Fundamentals andApplications, 2nd Edition. The Benjamin / Cummings Publishing Co.,Redwood City, CA."
+        ],
+        "web_resources": [
+          "https://nptel.ac.in/courses/126105016",
+          "https://www.classcentral.com/course/swayam-plant-pathology-and-soil-health-14236",
+          "https://www.wasteonline.org.uk/resources/InformationSheets/WasteDisposal.htm",
+          "https://plantpath.cornell.edu/labs/enelson/PDFs/Hill_et_al_2000.pdf",
+          "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2389.2005.00781.x"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Describe about the structure and function of ecosystems and understand the role of microbes in various environments",
+        "2": "Identify the cause of water pollution, and perform methods to assess the quality of water.",
+        "3": "Explain the productionof biofertilizers and biopesticides.",
+        "4": "Explainabout waste treatment process and microbial decomposition and bio-remediation process.",
+        "5": "Describe about plant diseases caused by microbes and acquire a clear idea on plant pathogenic interaction"
+      }
+    }
+  }
+}

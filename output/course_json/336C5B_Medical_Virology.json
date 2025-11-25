@@ -1,0 +1,61 @@
+{
+  "336C5B_Medical_Virology": {
+    "336C5B_Medical_Virology_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Virus Properties & Classification",
+          "Topics": [
+            "General Properties, replication and Classification of viruses (Baltimore classification), Cultivation of viruses- in animals, embryonated eggs and tissue culture, Virus purification assays - collection and transport of clinical specimens for viral infections."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Viral Pathogenesis & Disease Mechanisms",
+          "Topics": [
+            "Viral diseases with reference to symptoms, pathogenesis, transmission, prophylaxis and control – Arboviruses (Flavi virus), Picorna viruses (Polio virus and Rhinovirus), Hepatitis viruses (HAV, HBV, HCV, HDV, HEV), Rabies virus, Orthomyxoviruses (Influenza virus) and Paramyxoviruses (Mumps and Measles virus), Pox viruses (Variola, Vaccinia), Herpes viruses (Herpes simplex, Varicella zoster), Adeno viruses, Rota viruses and HIV viruses.",
+            "Oncogenic viruses (Human Papilloma virus): Introduction, characteristics of transformed cells, mechanism of viral oncogenesis and clinical manifestations."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Emerging & Reemerging Viral Infections",
+          "Topics": [
+            "Emerging and reemerging viral infections (SARS, Swine flu, Ebola, Dengue, Chikungunya- and Corona) – causes, spread and preventive measures.",
+            "Detection of viruses in clinical specimens – Serological and Molecular diagnosis of virus infections – Antiviral agents, Interferons and Viral Vaccines, Immunization schedules."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Intestinal Parasitic Infections",
+          "Topics": [
+            "General introduction to Medical Parasitology, Classification of medically important parasites.",
+            "Morphology, life cycle, pathogenesis, clinical features, laboratory diagnosis, prevention and treatment of diseases caused by the following organisms: Entameoba histolytica, flagellates (Giardia lamblia, Leishmania donovani), Sporozoa- Plasmodium spp."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Parasitic Diagnosis Techniques",
+          "Topics": [
+            "Introduction to Helminthes, Platyhelminthes – Taenia – Fasciola – Paragonimus – Schistosoma spp.",
+            "Nemathelminthes – Ascaris– Ankylostoma – Enterobius – Trichuris – Trichinella – Wuchereria – Dracanculus.",
+            "Collection, transport and examination of specimen Laboratory techniques in parasitology - Examination of faeces for ova and cyst by direct wet mount and iodine wet mount, Concentration methods (Floatation and Sedimentation techniques), Examination of blood for parasites.",
+            "Cultivation of parasites."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [],
+        "reference_books": [],
+        "web_resources": []
+      },
+      "course_outcomes": {
+        "1": "Understand the structure and properties of viruses, cultivation methods and diagnosis of viral diseases.",
+        "2": "Knowledge of basic and general concepts of causation of disease by the pathogenic microorganisms and various parameters of assessment of their severity and the methods of diagnosis.",
+        "3": "Insights to treatment options of viral diseases.",
+        "4": "Knowledge about the importance of protozoans in the intestine.",
+        "5": "Knowledge of Nematodes as infectious agent"
+      }
+    }
+  }
+}

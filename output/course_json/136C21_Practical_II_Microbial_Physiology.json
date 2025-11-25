@@ -1,0 +1,79 @@
+{
+  "136C21_Practical_II_Microbial_Physiology": {
+    "136C21_Practical_II_Microbial_Physiology_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Principles Of Motility Test",
+          "Topics": [
+            "Motility demonstration: Hanging drop, wet mount preparation, semi-solid agar, Craigie’s tube method.",
+            "Staining techniques: Smear preparation, permanent specimen preparation, capsular, and acid-fast staining"
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Basic Concepts Of Staining Methods",
+          "Topics": [
+            "Direct counts – Direct cell count (Petroff-Hausser counting chamber), turbidometry.",
+            "Viable count - pour plate, spread plate.",
+            "Bacterial growth curve."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Bacterial Count Using Different Methods And Anaerobic Culture",
+          "Topics": [
+            "Anaerobic culture methods.",
+            "Antibiotic sensitivity testing: Disc diffusion test - Quality control with standard strains."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Morphological Demonstration Of Microorganisms And Identification",
+          "Topics": [
+            "Morphological variations in algae, fungi and protozoa.",
+            "Micrometry: Demonstration of the size of yeast, fungal filaments and protozoa."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Biochemical Identification Of The Bacteria",
+          "Topics": [
+            "Methods of Bacterial Identification - Morphological, physiological, and biochemical methods - IMViC test, H S, TSI, 2 oxidase, catalase, urease test, and carbohydrate fermentation test.",
+            "Maintenance of pure culture, paraffin method, stab culture, maintenance of mold culture."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "James G Cappucino and N. Sherman MB (1996). A lab manual Benjamin Cummins, New York .",
+          "Kannan. N (1996).Laboratory manual in General Microbiology. Palani Publications.",
+          "Sundararaj T (2005). Microbiology Lab Manual (1st edition) publications.",
+          "Gunasekaran. P (2007). Laboratory manual in Microbiology. New age international publisher.",
+          "Elsa Cooper (2018). Microbial Physiology: A Practical Approach. Callisto Reference publisher."
+        ],
+        "reference_books": [
+          "DavidWhite., James Drummond., Clay Fuqua (2012) Physiology and Biochemistry of Prokaryotes. 4th Ed. Oxford University Press, New York.",
+          "Robert K. Poole (2004). Advances in Microbial Physiology, Elsevier Academic Press, New York, Volume 49.",
+          "Kim B.H., Gadd G.M. (2008). Bacterial Physiology and Metabolism. Cambridge University Press, Cambridge.",
+          "Dawes, I.W and Sutherland L.W (1992). Microbial Physiology (2nd edition), Oxford Blackwell Scientific Publications.",
+          "Moat, A.G and J.W Foaster, (1995). Microbial Physiology, 3rd edition. Wiley – LISS, A John Wiley & Sons. Inc. Publications."
+        ],
+        "web_resources": [
+          "https://sites.google.com/site/microbial physiologyoddsem/teaching-contents",
+          "https://courses.lumenlearning.com/boundless-microbiology/chapter/microbial-Nutrition",
+          "https://onlinecourses.swayam2.ac.in/cec20_bt14/preview",
+          "https://www.studocu.com/microbial-physiology-practicals",
+          "https://www.agr.hokudai.ac.jp/microbial-physiology"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Describe hanging drop, wet mount preparation, semi-solid agar, Craigie’s tube method.",
+        "2": "Demonstrate Smear preparation, permanent specimen preparation, Capsular, and Acid-fast staining.",
+        "3": "Explain antibiotic sensitivity testing: Disc diffusion test- quality control with standard strains.",
+        "4": "Describe demonstration of the size of yeast, fungal filaments and protozoa.",
+        "5": "Elaborate on the bacterial identification- morphological, physiological, and biochemical methods."
+      }
+    }
+  }
+}

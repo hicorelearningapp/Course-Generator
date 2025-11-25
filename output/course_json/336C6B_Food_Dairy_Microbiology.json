@@ -1,0 +1,87 @@
+{
+  "336C6B_Food_Dairy_Microbiology": {
+    "336C6B_Food_Dairy_Microbiology_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "To Impart Current Knowledge Of Basic And Applied",
+          "Topics": [
+            "Food as a substrate for microorganisms - Microorganisms important in Food Microbiology;",
+            "Molds, yeasts and bacteria -General Characteristics - Classification and importance.",
+            "Principles of food preservation - Asepsis - Removal of microorganisms, - High temperature - Low temperature - Drying - Food additives.",
+            "Nanoscience in food preservation;",
+            "microencapsulation."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Gives An Insight Into Various Types Of Food",
+          "Topics": [
+            "Contamination and spoilage of food products - Food borne infections (Bacillus cereus, Salmonella sp., Shigella sp., Listeria monocytogenes and Campylobacter jejuni) and intoxications – (Staphylococcus aureus, Clostridium botulinum ,Clostridium perfringens and mycotoxins) Food borne disease outbreaks - newly emerging pathogens.",
+            "Conventional and Novel technology in control of food borne pathogens and preventive measures - Food sanitation - plant sanitation - Employees’ health standards.",
+            "Regulatory Agencies &criteria for food safety."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "To Gain Information About Microflora Of Milk",
+          "Topics": [
+            "Microflora of raw milk - sources of contamination.",
+            "Spoilage and preservation of milk and milk products.",
+            "-antimicrobial systems in raw milk.",
+            "Importance of biofilms, their role in transmission of pathogens in dairy products and preventive strategies."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Production Of Fermented Dairy Products",
+          "Topics": [
+            "Food fermentations: Indian pickles, bread, vinegar, fermented vegetables (Sauerkraut), fermented dairy products (Yoghurt, Cheese, Acidophilus milk, Kefir, Koumiss).",
+            "Oriental fermented foods-Miso – Tempeh, Ontjom, Natto and Idli.",
+            "Spoilage and defects of fermented dairy products - Functional fermented foods and nutraceuticals, Bioactive proteins and bioactive peptides, Genetically modified foods."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "To Impart Current Knowledge Of Probiotics, Prebiotics",
+          "Topics": [
+            "Probiotic microorganisms, concept, definition, safety of probiotic microorganisms, legal status of probiotics, Characteristics of Probiotics for selection: stability maintenance of probiotic microorganisms.",
+            "Role of probiotics in health and disease: Mechanism of probiotics.",
+            "Application of bacteriocins in foods.",
+            "Biopreservation.",
+            "Prebiotics: concept, definition, criteria, types and sources of prebiotics, prebiotics and gut microflora - Prebiotics and health benefits: mineral absorption, immune response, cancer prevention, elderly health and infant health, prebiotics in foods."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Frazier WC and West off DC. (2017). Food microbiology. 5th Edition TATA McGraw Hill Publishing Company Ltd. New Delhi.",
+          "Adams, M.R., Moss, M.O.(2018). Food Microbiology 1stedition. New Age Publishers by New Age International (P) Ltd., Publishers.",
+          "R.C. Dubey. (2014). Advanced Biotechnology. S. Chand publishers.",
+          "Banwart GJ. (1989). Basic food microbiology, Chapman & Hall, New York.",
+          "Sugumar D. (1997). Outlines of dairy technology, Oxford University press. 1997."
+        ],
+        "reference_books": [
+          "Jay JM, Loessner MJ and Golden DA.(2005). Modern Food Microbiology. 7th Edition CBS Publishers and Distributors, Delhi, India.",
+          "Prescott, Harley and Klein Wim.(2008). Microbiology, 7th Edition McGraw Hill Publications.",
+          "Robinson, R. K.(2002). Dairy Microbiology Handbook - The Microbiology of Milk and Milk Products (Third Edition), A John Wiley & Sons, Inc., New York.",
+          "Yuankunlee,Sepposalminen. (2008). Handbook of probiotics and prebiotics Second Edition. A John Wiley & Sons publication Inc.",
+          "DharumauraiDhansekaran, AlwarappanSankaranarayanan. (2021). Advances in Probiotics Microorganisms in Food and Health 1st Edition. eBook ISBN:9780128230916.",
+          "https://www.researchgate.net/publication/15326559_A_Dynamic_Approach_to_Predictin g_BacterialGrowth_in_Food/link/5a1d2e02aca2726120 b28eba/download",
+          "https://www.fda.gov/food/laboratory-methods-food/bam-foodsamplingpreparation- sample-homogenate",
+          "https://www.researchgate.net/publication/243462186_Foodborne_diseases_in_India_- _A_review",
+          "https://www.researchgate.net/publication/228662659_Fermented_Dairy_Products_Starter _Cultures_and_Potential_Nutritional_Benefits/link/000084160cf23f86393d5764/ download",
+          "https://www.fda.gov/food"
+        ],
+        "web_resources": []
+      },
+      "course_outcomes": {
+        "1": "Gain knowledge about food as a substrate for various microbes, Understand about the principles and application of different types of food spoilage and preservation technique,",
+        "2": "Acquire a thorough understanding of food borne diseases, testing methods, and preventive technique",
+        "3": "Gain information about spoilage of milk and its products and its antimicrobial properties",
+        "4": "Learn about the various fermented product and its various stage spoilage",
+        "5": "Impart current knowledge of probiotics, prebiotics and functional dairy foods for the health benefits"
+      }
+    }
+  }
+}

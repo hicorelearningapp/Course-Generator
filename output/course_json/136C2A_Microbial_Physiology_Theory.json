@@ -1,0 +1,84 @@
+{
+  "136C2A_Microbial_Physiology_Theory": {
+    "136C2A_Microbial_Physiology_Theory_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Basic Principles Of Microbial Growth",
+          "Topics": [
+            "Physiology of Microbial Growth: Batch – continuous - synchronous cultures;",
+            "Growth curve and measurement method (turbidity, biomass, and cell count).",
+            "Control of microbial growth."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Basic Concepts Of Aerobic And Anaerobic Metabolic Pathways",
+          "Topics": [
+            "Nutrition Requirements - Photoautotrophs, photoorganotrophs, chemolithotrophs (Ammonia, Nitrite, Sulfur, Hydrogen, Iron oxidizing Bacteria), chemoorganotrophs.",
+            "Nutrition transport mechanisms – Passive diffusion and Active transport.",
+            "Factors affecting microbial growth."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Nalyze The Role Of Individual Components In Overall",
+          "Topics": [
+            "An overview of Metabolism - Embden Meyerhof Pathway, Entner- Doudoroff Pathway, Pentose Phosphate Pathway, Tricarboxylic Acid Cycle.",
+            "Electron Transport Chain and Oxidative Phosphorylation.",
+            "ATP synthesis.",
+            "Fermentation-Homolactic Fermentation, Heterolactic Fermentation, Mixed Acid Fermentation, Butanediol Fermentation."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Provide Information On Sources Of Energy And Its",
+          "Topics": [
+            "Photosynthesis - An overview of chloroplast structure.",
+            "Photosynthetic Pigments, Light Reaction-Cyclic and non-cyclic Photophosphorylation.",
+            "Dark Reaction - Calvin Cycle."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Different Types Of Metabolic Strategies",
+          "Topics": [
+            "Bacterial reproduction - Binary fission, Budding, Reproduction through conidia, cyst formation, endospore formation.",
+            "Fungi asexual and sexual reproduction, Microalgae reproduction.",
+            "Asexual and sexual reproduction of protozoa."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Schlegal, H.G. (1993). General Microbiology.,7th Edition, Press syndicate of the University of Cambridge.",
+          "RajapandianK.(2010). Microbial Physiology, Chennai: PBS Book Enterprises India.",
+          "MeenaKumari. S. Microbial Physiology, Chennai 1st Edition MJP Publishers 2006.",
+          "Dubey R.C. and Maheswari, S. (2003). A textbook of Microbiology, New Delhi: S. Chand & Co.",
+          "S. Ram Reddy, S.M. Reddy (2008). Microbial Physiology. Anmol Publications Pvt Ltd."
+        ],
+        "reference_books": [
+          "Robert K. Poole (2004). Advances in Microbial Physiology, Elsevier Academic Press, New York, Volume 49.",
+          "Kim B.H., Gadd G.M. (2008). Bacterial Physiology and Metabolism. Cambridge University Press, Cambridge.",
+          "Daniel R. Caldwell. (1995). Microbial Physiology & Metabolism Wm.C. Brown Communications, Inc. USA.",
+          "Moat, A.G and J.W Foaster (1995). Microbial Physiology, 3rd edition. Wiley – LISS, A John Wiley & Sons. Inc. Publications.",
+          "BhanuShrivastava. (2011). Microbial Physiology and Metabolism: Study of Microbial Physiology and Metabolism. Lambert academic Publication."
+        ],
+        "web_resources": [
+          "https://sites.google.com/site/microbial physiologyoddsem/teaching-contents",
+          "https://courses.lumenlearning.com/boundless-microbiology/chapter/microbial-Nutrition",
+          "https://onlinecourses.swayam2.ac.in/cec20_bt14/preview",
+          "http://web.iitd.ac.in/~amittal/2007_Addy_Enzymes_Chapter.pdf",
+          "https://www..frontiersin.org.microbial-physiology-and-metabolism"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Describe microorganisms based on nutrition.",
+        "2": "Know the concept of microbial growth and identify the factors affecting bacterial growth.",
+        "3": "Explain the methods of nutrient uptake.",
+        "4": "Describe anaerobic and aerobic energy production.",
+        "5": "Elaborate on the process of bacterial photosynthesis and reproduction."
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "136C1A_Fundamentals_of_Microbiology_Theory": {
+    "136C1A_Fundamentals_of_Microbiology_Theory_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Fundamental Principles About Different Aspects Of Microbiology Including",
+          "Topics": [
+            "History and Evolution of Microbiology, Classification – Three kingdom, five kingdom, six kingdom and eight kingdom.",
+            "Microbial biodiversity: Introduction to microbial biodiversity- ecological niche.",
+            "Basic concepts of Eubacteria, Archaebacteria and Eucarya.",
+            "Conservation of Biodiversity."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Describe The Structural Organization, Morphology And Reproduction",
+          "Topics": [
+            "General characteristics of cellular microorganisms (Bacteria, Algae, Fungi and Protozoa) and acellular microorganisms - (Viruses, Viroids, Prions), Differences between prokaryotic and eukaryotic microorganisms.",
+            "Structure of Bacterial cell wall, cell membrane, capsule, flagella, pili, mesosomes, chlorosomes, phycobilisomes, spores, and gas vesicles.",
+            "Structure of fungi (Mold and Yeast), Structure of microalgae."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Methods Of Cultivation Of Microbes And Measurement",
+          "Topics": [
+            "Bacterial culture media and pure culture techniques.",
+            "Mode of cell division, Quantitative measurement of growth.",
+            "Anaerobic culture techniques."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Microscopy And Other Basic Laboratory Techniques – Culturing",
+          "Topics": [
+            "Microscopy – Simple, bright field, dark field, phase contrast, fluorescent, electron microscope – TEM & SEM, Confocal microscopy, and Atomic Force Microscopy.",
+            "Stains and staining methods."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Compare And Contrast The Different Methods Of Sterilization",
+          "Topics": [
+            "Sterilization–moist heat - autoclaving",
+            "dry heat – Hot air oven",
+            "radiation – UV",
+            "Ionization",
+            "filtration – membrane filter and disinfection",
+            "antiseptic;",
+            "Antimicrobial agents."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Pelczar.M. J., Chan E.C.S. and Noel. R.K. (2007). Microbiology. 7th Edition.,McGraw – Hill, New York.",
+          "Willey J., Sherwood L., and Woolverton C. J., (2017). Prescott’s Microbiology. 10th Edition., McGraw-Hill International edition.",
+          "Tortora, G.J., Funke, B.R., Case,C.L. (2013). Microbiology. An Introduction 11th Edition., A La Carte Pearson.",
+          "Salle. A.J (1992). Fundamental Principles of Bacteriology. 7th Edition., McGraw Hill Inc.New York.",
+          "Boyd, R.F. (1998). General Microbiology,2nd Edition., Times Mirror, Mosby CollegePublishing, St Louis."
+        ],
+        "reference_books": [
+          "Jeffrey C. Pommerville., Alcamo’s Fundamentals of Microbiology (9th Edition). Jones &Bartlett learning 2010.",
+          "Stanier R.Y, Ingraham J. L., Wheelis M. L., and Painter R. R. (2010). General Microbiology, 5th Edition., MacMillan Press Ltd",
+          "Tortora, G.J., Funke, B.R. and, Case, C.L (2013). Microbiology-An Introduction, 11th Edition., Benjamin Cummings.",
+          "Nester E., Anderson D., Roberts C. E., and Nester M. (2006). Microbiology-A Human Perspective, 5th Edition. McGraw Hill Publications.",
+          "Madigan M.T., Martinko J.M., Stahl D.A, and Clark D. P. (2010). Brock - Biology of Microorganisms, 13th Edition Benjamin-Cummings Pub Co."
+        ],
+        "web_resources": [
+          "https://www.cliffsnotes.com/study-guides/biology/microbiology/introduction-to- microbiology/a-brief-history-of-microbiology",
+          "https://www.keyence.com/ss/products/microscope/bz-x/study/principle/structure.jsp",
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6604941/#",
+          "https://bio.libretexts.org/@go/page/9188",
+          "https://courses.lumenlearning.com/boundless-microbiology/chapter/microbial- nutrition/"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Study the historical events that led to the discoveries and inventions and understand the Classification of Microorganisms.",
+        "2": "Gain Knowledge of detailed structure and functions of prokaryotic cell organelles.",
+        "3": "Understand the various microbiological techniques, different types of media, and techniques involved in culturing microorganisms.",
+        "4": "Explain the principles and working mechanism of different microscopes/Microscope, their function and scope of application.",
+        "5": "Understand the concept of asepsis and modes of sterilization and disinfectants."
+      }
+    }
+  }
+}

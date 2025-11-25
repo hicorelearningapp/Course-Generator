@@ -1,0 +1,100 @@
+{
+  "336C51_Medical_Microbiology": {
+    "336C51_Medical_Microbiology_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Ing Objectives To Familiarize Students With Medical Microbiology",
+          "Topics": [
+            "1.",
+            "Collection and Transport of Clinical specimens.",
+            "2.",
+            "Simple, Differential and Special staining of Clinical materials.",
+            "3.",
+            "Culture techniques used to isolate microorganisms."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "To Learn The Techniques For Isolation And Identification",
+          "Topics": [
+            "4.",
+            "Identification of bacterial pathogens by their biochemical reactions.",
+            "5.",
+            "Antimicrobial susceptibility testing by disc-diffusion technique and determination of Minimum Inhibitory Concentration."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "To Gain Expertise In Various Techniques Of Clinically",
+          "Topics": [
+            "6.",
+            "Isolation of Bacteriophages from Sewage and other natural sources.",
+            "7.",
+            "Identification of Viruses in Slides/Smears/Spotters.",
+            "Demonstration of Negri bodies (Staining).",
+            "8.",
+            "Cultivation of Viruses in Embryonated eggs – Amniotic, Allantoic, Yolk sac routes and Chorio-allantoic membrane."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "To Get Acquainted With Medically Important Fungi",
+          "Topics": [
+            "9.",
+            "Microscopic identification of medically important Fungi – KOH and Lactophenol cotton Blue staining.",
+            "10.",
+            "Slide culture techniques for fungal Identification 11.",
+            "Identification of Dermatophytes.",
+            "12.",
+            "Germ tube test, Carbohydrate fermentation and assimilation tests for Yeasts."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "To Categorize Parasites And Understand Their Role",
+          "Topics": [
+            "13.",
+            "Direct Examination of Faeces – wet mount and Iodine mount – Demonstration of Protozoan cysts and Helminthes eggs.",
+            "14.",
+            "Concentration techniques of stool specimen – Floatation and Sedimentation methods.",
+            "15.",
+            "Examination of blood for Malarial parasites – thin and thick smear preparations.",
+            "16.",
+            "Identification of Medically important parasites in slides / specimens as spotters."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Dubey, R.C. and Maheswari, D.K. (2020). S. Chand Publishers. ISBN-13: 978- 8121921534, ISBN-10: 8121921538.",
+          "K.R. Aneja (2017). Experiments in Microbiology, Plant Pathology, Tissue Culture and Microbial Biotechnology. 5th Edition. New Age International Publishers. ISBN-10: 9386418304, ISBN-13: 978-9386418302.",
+          "Collee, J.G., Fraser, A.G., Marnion, B.P. and Simmons, A. (1996). Mackie & McCartney Practical Medical Microbiology. 14th Edition. Elsevier. ISBN-10: 813120393X, ISBN-13: 978-8131203934.",
+          "Prince CP (2009). Practical Manual of Medical Microbiology, Ist edition, Jaypee digital publishing.",
+          "James H. Jorgensen, Karen C. Carroll, Guido Funke, Michael A. Pfaller, Marie Louise Landry, Sandra S. Richter, David W. Warnock (2015). Manual of Clinical Microbiology, 11th Edition, ASM press"
+        ],
+        "reference_books": [
+          "Patricia M. Tille (2021). Bailey & Scott’s Diagnostic Microbiology, 15th Edition. Elsevier. ISBN-10: 0323681050, ISBN-13: 978-0323681056.",
+          "Monica Cheesbrough (2006). District Laboratory Practice in Tropical Countries. Part 1. 2nd Edition. Cambridge University Press. ISBN-10: 0521171571, ISBN-13: 978-0521171571.",
+          "Michael A. Pfaller (ed.) (2015). Manual of Clinical Microbiology. Vol. 1 and 2. 11th Edition. ASM Press. ISBN-10: 9781555817374, ISBN-13: 978-1555817374.",
+          "Josephine A. Morello, Paul A. Granato and Helen EckelMizer (2002). Laboratory Manual and Workbook in Microbiology. 7th Edition. The McGraw Hill Company. ISBN: 0-07- 246354-6.",
+          "Rowland, S.S., Walsh, S.R., Teel, L.D. and Carnahan, A.M. ((1994). Pathogenic and Clinical Microbiology: A Laboratory Manual. Lippincott Williams & Wilkins. ISBN-10:"
+        ],
+        "web_resources": [
+          "https://www.microcarelab.in/media/microcarelab.in/files/Sample-Collection-Manual.pdf",
+          "http://ssu.ac.ir/cms/fileadmin/user_upload/Daneshkadaha/pezeshki/microb/file_amuzeshi/L ab_QA_Microbiology_QA.pdf",
+          "https://www.academia.edu/11977315/Basic_Laboratory_Procedures_in_Clinical_Bacteriolo gy",
+          "https://cmr.asm.org/content/31/3/e00062-17.full.pdf",
+          "https://microbiologyinfo.com/techniques-of-virus-cultivation/"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Demonstrate methods to observe and measure microorganisms by standard microbiological techniques",
+        "2": "Identify pathogenic microorganisms in the laboratory set-up and interpret their sensitivity towards commonly administered antibiotics.",
+        "3": "Understand experimental tools used to cultivate and characterize clinically important viruses and bacteriophages",
+        "4": "Elucidate clinically important fungi.",
+        "5": "Investigate Parasites of medical importance and identify them from clinical specimens."
+      }
+    }
+  }
+}

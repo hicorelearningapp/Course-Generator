@@ -1,0 +1,95 @@
+{
+  "236C3A_Molecular_Biology_Theory": {
+    "236C3A_Molecular_Biology_Theory_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Provide Knowledge On Structure And Replication Of Dna",
+          "Topics": [
+            "DNA Structure - Salient features of double helix, forms of DNA.",
+            "Denaturation and renaturation.",
+            "DNA topology – Supercoiling, linking number, topoisomerases.",
+            "DNA organization in prokaryotes, eukaryotes.",
+            "Replication of DNA in prokaryotes and eukaryotes - Bidirectional and unidirectional replication, semi-conservative and semi-discontinuous replication.",
+            "Mechanism of DNA replication – enzymes involved – DNA polymerases, DNA ligase, primase."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Significance And Functions Of Rna In Protein Synthesis",
+          "Topics": [
+            "Transcription in Prokaryotes.",
+            "Concept of transcription.",
+            "RNA Polymerases - prokaryotic and eukaryotic.",
+            "General transcription factors in eukaryotes.",
+            "Translation in prokaryotes and eukaryotes - Translational machinery - ribosome structure in prokaryotes and eukaryotes, tRNA structure and processing.",
+            "Inhibitors of protein synthesis in prokaryotes and eukaryotes.",
+            "Overview of regulation of gene expression - lac operons as example."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Cause And Types Of Dna Mutation And Dna",
+          "Topics": [
+            "Mutation - Definition and types of mutations.",
+            "Physical and chemical mutagens.",
+            "Reversion and suppression.",
+            "Uses of mutations.",
+            "Repair Mechanisms - Photoreactivation, Nucleotide Repair, Base Excision Repair, Methyl Directed Mismatch Repair and SOS Repair."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Outline The Role Of Plasmids And Phages",
+          "Topics": [
+            "Plasmid – Structure, types, replication, plasmid incompatibility, plasmid amplification and curing of plasmids.",
+            "Bacteriophage-T4 Phage – Structure and lifecycle, Lambda phage-Structure, Lytic and Lysogenic cycle.",
+            "Applications of Phages in Microbial Genetics."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Examine Mechanisms Of Gene Transfer And Recombination",
+          "Topics": [
+            "Gene Transfer Mechanisms - Conjugation and its uses.",
+            "Transduction - Generalized and Specialized, Transformation - Natural and Artificial Transformation.",
+            "Transposable elements - Prokaryotic transposable elements – insertion sequences, composite, and non-composite transposons.",
+            "Transposition and Types of Transposition reactions.",
+            "Mechanism of transposition: Replicative and non- replicative transposition.",
+            "Uses of transposons."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Malacinski G.M. (2008). Freifelder’s Essentials of Molecular Biology. 4th Edition. Narosa Publishing House, New Delhi.",
+          "Gardner E. J. Simmons M. J. and SnustedD.P.(2006). Principles of Genetics. 8th Edition. Wiley India Pvt. Ltd.",
+          "Trun N. and Trempy J. (2009). Fundamental Bacterial Genetics. 1st Edition. Blackwell Science Ltd.",
+          "Brown T. A. (2016). Gene Cloning and DNA Analysis- An Introduction. (7th Edition). John Wiley and Sons, Ltd.",
+          "Dale J. W., Schantz M.V. and Plant N. (2012). From Gene to Genomes – Concepts and Applications of DNA Technology. (3rd Edition). John Wileys and Sons Ltd."
+        ],
+        "reference_books": [
+          "Glick B. R. and Patten C.L. (2018). Molecular Biotechnology – Principles and Applications of Recombinant DNA. 5th Edition. ASM Press.",
+          "Russell P.J. (2010). iGenetics - A Molecular Approach, 3rd Edition., Pearson New International edn.",
+          "Nelson, D.L. and Cox, M.M. Lehninger(2017). Principles of Biochemistry. 7th",
+          "Synder L., Peters J. E., Henkin T.M. and Champness W. (2013). Molecular Genetics of Bacteria, 4th Edition, ASM Press Washington-D.C. ASM Press.",
+          "Primrose S.B. and Twyman R. M. (2006). Principles of Gene Manipulation and Genomics. (7th Edition). Blackwell Publishing"
+        ],
+        "web_resources": [
+          "[PDF] Lehninger Principles of Biochemistry (8th Edition) By David L. Nelson and Michael M. Cox Book Free Download - StudyMaterialz.in",
+          "https://microbenotes.com/gene-cloning-requirements-principle-steps-applications/",
+          "https://courses.lumenlearning.com/boundless-biology/chapter/dna-replication/",
+          "Molecular Biology Notes - Microbe Notes",
+          "Molecular Biology Lecture Notes & Study Materials | Easy Biology Class"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Analyze the significance of DNA and elucidate the replication mechanism.",
+        "2": "Illustrate the types of RNA and protein synthesis machinery.",
+        "3": "Infer the causes and types of DNA mutation and summarize the DNA repair mechanisms.",
+        "4": "Evaluate the importance of plasmids and phages in genetics.",
+        "5": "Analyze gene transfer and recombination methods."
+      }
+    }
+  }
+}

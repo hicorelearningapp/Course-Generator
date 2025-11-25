@@ -1,0 +1,93 @@
+{
+  "336C5A_Medical_Bacteriology": {
+    "336C5A_Medical_Bacteriology_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Role Of Normal Flora And Pathogenic Microbes",
+          "Topics": [
+            "History, Classification of Medically Important Microbes, Koch’s, and River’s postulates-A brief account on the normal microbial flora of the healthy human body – Host-pathogen interactions: Definitions of infection, invasion, primary and opportunistic pathogens, pathogenicity, virulence, toxigenicity, carriers, endemic, epidemic, pandemic diseases and epidemiology – putative virulence factors of human pathogens –infectious disease cycle.",
+            "Collection and transport of clinical specimens for bacterial and fungal infections."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Basic Knowledge About Gram Positive Pathogenic Bacteria",
+          "Topics": [
+            "Medically Important Gram Positive infections - Causative agent, clinical symptoms, pathogenesis, mode of transmission, prevention and treatment of the following bacterial diseases (a) Streptococcal infections (Streptococcus pyogenes, Streptococcus faecalis), (b) Staphylococcal infections (Staphylococcus aureus), (c) Tetanus (Clostridium tetani)(d) Diphtheria (Corynebacterium diphtheriae) (e) Anthrax (Bacillus anthracis) (f) Tuberculosis (Mycobacterium tuberculosis), (g) Leprosy (Mycobacterium leprae)."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Gram Negative Pathogenic Bacteria And Nosocomial Infections",
+          "Topics": [
+            "Medically Important Gram-Negative infections - Causative agent, clinical symptoms, pathogenesis, mode of transmission, prevention, and treatment of the following bacterial diseases (a) Meningitis (Streptococcus pneumoniae, Neisseria meningitidis) (b) typhoid (Salmonella typhi, Salmonella paratyphi) (c) cholera (Vibrio cholerae) (d) bacillary dysentery (Shigella dysenteriae);",
+            "Sexually Transmitted disease (Syphilis–Treponema pallidum. Gonorrhoea - Neisseria gonorrhoeae);",
+            "Nosocomial infections – definition, importance, and their control (Pseudomonas aeruginosa)."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Comprehensive Knowledge About Medically Important, Its Classification",
+          "Topics": [
+            "Medically Important Fungi - Classification of medically important fungi;",
+            "Superficial mycoses: Pityriasis versicolor;",
+            "Tinea nigra;",
+            "Piedra.",
+            "Cutaneous mycoses: Microsporum spp., Trichophyton spp., and Epidermophyton floccosum.",
+            "Subcutaneous mycoses: Chromoblastomycosis;",
+            "Sporotrichosis;",
+            "Systemic Mycoses - Blastomycosis;",
+            "Histoplasmosis;",
+            "Opportunistic Infections - Candidiasis;",
+            "Cryptococcosis;",
+            "Zygomycosis;",
+            "Mycotoxins: Aflatoxin"
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "General Characteristics And Mode Of Action Of Various",
+          "Topics": [
+            "Antimicrobial agents -General characteristics and mode of action of Antibacterial agents: Modes of action with an example for each: Inhibitor of nucleic acid synthesis;",
+            "Inhibitor of cell wall synthesis;",
+            "Inhibitor of cell membrane function;",
+            "Inhibitor of protein synthesis;",
+            "Inhibitor of metabolism.",
+            "Antifungal agents: Mechanism of action of Amphotericin B, Griseofulvin."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Tom Parker, M. Leslie H. Collier. (1990). Topley&Wilson’s Principles of Bacteriology, Virology and Immunity,8th Edition. London: Edward Arnold.",
+          "Greenwood, D., Slack, R.B. and Peutherer, J.F. (2012) Medical Microbiology, 18thEdition. Churchill Livingstone, London.",
+          "Finegold, S.M. (2000) Diagnostic Microbiology, 10th Edition. C.V. Mosby Company, St. Louis.",
+          "Ananthanarayanan, R. and JayaramPanicker C.K. (2020) Text book of Microbiology. Orient Longman, Hyderabad.",
+          "JagdishChander (2018). Textbook of Medical Mycology, 4th edition, Jaypeebrothers medical publishers."
+        ],
+        "reference_books": [
+          "Gerhardt, P., Murray, R.G., Wood, W.A. and Kreig, N.R. (Editions) (1994) Methods for General and Molecular Bacteriology. ASM Press, Washington, DC.",
+          "Kevin Kavanagh, (2018). Fungi Biology and Applications 3rd Edition. Wiley Blackwell publishers.",
+          "C.J. Alexopoulos, C.W. Mims, M. Blackwell, (2007). Introductory Mycology, 4th edition. Wiley publishers.",
+          "A.J. Salle (2007). Fundamental principles of bacteriology, fourth edition, Tata McGraw- Hill Publications.",
+          "Christopher C. Kibbler ,Richard Barton,Neil A. R. Gow, Susan Howell,Donna M. MacCallum, Rohini J. Manuel (2017). Oxford Textbook of Medical Mycology. Oxford University Press."
+        ],
+        "web_resources": [
+          "http://textbookofbacteriology.net/nd",
+          "https://microbiologysociety.org/members-outreach-resources/links.html",
+          "http://mycology.cornell.edu/fteach.html",
+          "https://www.adelaide.edu.au/mycology/",
+          "https://www.isham.org/mycology-resources/mycological-links"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Understand the importance of normal flora of human body and acquire knowledge on the process of infectious disease.",
+        "2": "Explain the various bacterial pathological events during the progression of an infectious disease, and apply the underlying mechanisms of spread of disease and its control.",
+        "3": "Compile a list of disease-causing bacteria and compare their modes of infection, symptoms, diagnosis and treatment.",
+        "4": "Comprehend human-fungal interaction, which can be applied to obtain in-depth knowledge on fungal diseases and the mechanism behind the disease process.",
+        "5": "Explain the types of mycoses caused in humans and categorize the modes of infection, pathogenesis, and treatment with introduction to mycotoxins."
+      }
+    }
+  }
+}

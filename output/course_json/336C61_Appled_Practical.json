@@ -1,0 +1,106 @@
+{
+  "336C61_Appled_Practical": {
+    "336C61_Appled_Practical_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Toassess The Water Quality And Potability",
+          "Topics": [
+            "1.",
+            "Physical, chemical, and microbiological assessment of water and potability test forwater.",
+            " Physical – Color",
+            "pH",
+            " Chemical - alkalinity",
+            "acidity",
+            "DO",
+            "BOD",
+            "COD  Microbiological – MPN index (Presumptive",
+            "Completed and Confirmatory test) 2.",
+            "Study of air microflora by settle plate method."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Enumeration Of Bacteria From Milk And Milk Quality",
+          "Topics": [
+            "3.",
+            "Isolation and identification of bacteria and fungi from fruits and vegetables 4.",
+            "Direct microscopic count of milk.",
+            "5.",
+            "Methylene blue reductase test and Resazurin test 6.",
+            "Microbiological examination of milk by SPC."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "To Investigate Various Extracellular Enzyme Producers In Soil",
+          "Topics": [
+            "7.",
+            "Isolation of extracellular enzyme producers –Amylase, protease, lipase 8.",
+            "Microbiological assay of antibiotics by cup plate method and other methods 9.",
+            "Isolation of Rhizobium/ Azotobacter/ phosphate solubilizing organisms 10.",
+            "Preparation of biofertilizers – Demonstration"
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Improve Knowledge On Plant Pathogens",
+          "Topics": [
+            "11.",
+            "Study of plant pathogens- Tikka Disease, Red rot of sugarcane, Citrus canker, Blight of paddy.",
+            "12.",
+            "Study of fungi - Mucor, Curvularia, Alternaria, Rhizopus, Aspergillus"
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Preparation Of Probiotics And Prebiotics",
+          "Topics": [
+            "13.",
+            "Isolation of constituent flora of fermented milk.",
+            "14.",
+            "Growth of probiotic LAB in broth, milk and whey.",
+            "15.",
+            "Preparation of probiotic fermented milks like dahi, yoghurt, lassi and whey drink.",
+            "16.",
+            "Effect of prebiotics on the growth of LAB in milk and broth.",
+            "17.",
+            "Survivability of probiotic organisms in fermented milks.",
+            "18.",
+            "Antimicrobial potential of the functional dairy products."
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Cappucino J and Sherman N.(2010). Microbiology: A Laboratory Manual. 9th Edition. Pearson Education Limited.",
+          "Kannan. N. (1996). Laboratory manual in General Microbiology. Palani Publications.",
+          "R C Dubey and D K Maheswari.(2002). Practical Microbiology. S. Chand Publishing.",
+          "Neelima Garg, K.L. Garg, K.G. Mukerji (2010).Laboratory Manual of Food Microbiology, Wiley publication",
+          "Aneja, KR.(2010). Experiments in Microbiology, Plant pathology and Biotechnology. New Age International (P) Limited."
+        ],
+        "reference_books": [
+          "Christon J. Hurst Editor in Chief, Ronald L. Crawford, Jay L. Garland, David A. Lipson, Aaron L. Mills, Linda D. Stetzenbach (2007). Manual of Environmental Microbiology, Third Edition,Wiley publication.",
+          "James G Cappucino and Natalie Sherman.(2016). Microbiology – A laboratory manual. 4th Edition. The Benjamin publishing company, New York.",
+          "Marylynn V. Yates, Cindy H. Nakatsu, Robert V. Miller, Suresh D. Pillai 2016). Manual of Environmental Microbiology, 4th Edition,ASM press.",
+          "Burns, Richard G (2005). Environmental MicrobiologyA Laboratory Manual, 2nd Edition .Lippincott Williams & Wilkins, Inc.",
+          "Ian Pepper, Charles Gerba, Jeffrey Brendecke (2004). Environmental Microbiology-A laboratory manual, Elsevier."
+        ],
+        "web_resources": [
+          "https://micobenotes.com/fields-of-microbiology/",
+          "https://bio.libretexts.org",
+          "https://www.google.com",
+          "https://www.sfamjournals.onlinelibrary.wiley.com",
+          "https://www.degruyter.com"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Assess the microbial quality of water and relate the experimental results to the prescribed standards by the statutory bodies",
+        "2": "Evaluate the quality of milk and enumerate bacteria in milk by standard plate count method",
+        "3": "Identify extracellular enzyme producing and nitrogen fixing microorganism form soil and to prepare a biofertilizer.",
+        "4": "Identifyvarious plant pathogenic bacteria",
+        "5": "Synthesize probiotic fermented milks using microorganisms"
+      }
+    }
+  }
+}

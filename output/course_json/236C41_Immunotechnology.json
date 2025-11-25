@@ -1,0 +1,77 @@
+{
+  "236C41_Immunotechnology": {
+    "236C41_Immunotechnology_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "To Gain Hands-On Knowledge To Identify Blood Group",
+          "Topics": [
+            "Identification of blood group and typing.",
+            "Coomb’s test.",
+            "TPHA"
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "To Acquire Adequate Skill To Perform Latex Agglutination",
+          "Topics": [
+            "T cell identification (Demonstration) Latex Agglutination reactions- RF, ASO, CRP"
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "To Analyze Precipitation Reactions In Gels",
+          "Topics": [
+            "Ouchterlony’s Double Diffusion Method (antigen pattern).",
+            "Single Radial Immuno Diffusion Method."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "To Investigate The Antigen & Antibody Reactions",
+          "Topics": [
+            "Electrophoresis - Serum, Counter and Immunoelectrophoresis."
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "To Familiarize With Separation Of Lymphocytes",
+          "Topics": [
+            "Separation of Lymphocytes by density gradient centrifugation method.",
+            "ELISA: Hepatitis/ HIV"
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Talwar. (2006). Hand Book of Practical and Clinical Immunology, Vol. I, 2nd edition, CBS.",
+          "Asim Kumar Roy. (2019).",
+          "Richard Coico, Geoffrey Sunshine, Eli Benjamini. (2003). Immunology – A Short Course. 5thEdition., Wiley-Blackwell, New York.",
+          "Judith A.Owen, Jenni Punt, Sharon A. Stranford, Janis Kuby. (2013). Immunology, 7thEdition., W. H. Freeman and Company, New York.",
+          "Pravash Sen. Gupta. (2003). Clinical Immunology. Oxford University Press."
+        ],
+        "reference_books": [
+          "Frank C. Hay, Olwyn M. R. Westwood. (2008).Practical Immunology, 4th Edition, Wiley- Blackwell.",
+          "Wilmore Webley. (2016). Immunology Lab Manual, LAD Custom Publishing.",
+          "Rose. (1992). Manual of Clinical Lab Immunology, ASM.",
+          "Janeway Travers. (1997). Immunobiology- the immune system in health and disease. Current Biology Ltd. London, New York. 3rd Edition.",
+          "Peter J. Delves, Seamus Martin, Dennis R. Burton, Ivan M. Roitt. (2006). Roitt’s Essential Immunology, 11thEdition., Wiley-Blackwell."
+        ],
+        "web_resources": [
+          "https://www.researchgate.net/publication/275045725_Practical_Immunology- _A_Laboratory_Manual",
+          "https://www.urmc.rochester.edu/MediaLibraries/URMCMedia/labs/frelinger- lab/documents/Immunology-Lab-Manual.pdf",
+          "https://webstor.srmist.edu.in/web_assets/downloads/2021/18BTC106J-lab-manual.pdf",
+          "Immunology Overview - Medical Microbiology - NCBI Bookshelf (nih.gov)",
+          "Immunology - an overview | ScienceDirect Topics"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Assess the blood groups and types",
+        "2": "Competently perform serological diagnostic tests such as RF, ASO, CRP",
+        "3": "Illustrate the antigen antibody reactions in gel.",
+        "4": "Compare & contrast antigens and antibodies in electrophoresis",
+        "5": "Examine the concept of ELISA."
+      }
+    }
+  }
+}

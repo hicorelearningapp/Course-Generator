@@ -1,0 +1,82 @@
+{
+  "236C31_Molecular_Biology_Practical": {
+    "236C31_Molecular_Biology_Practical_Syllabus": {
+      "Units": [
+        {
+          "Unit_Number": 1,
+          "Unit_Name": "Provide Knowledge On Structure And Replication Of Dna",
+          "Topics": [
+            "Study of different types of DNA and RNA using micrographs and model / schematic representations.",
+            "Study of semi-conservative replication of DNA through micrographs / schematic representations."
+          ]
+        },
+        {
+          "Unit_Number": 2,
+          "Unit_Name": "Elucidate The Methods Of Genomic And Plasmid Dna",
+          "Topics": [
+            "Isolation of Genomic and Plasmid DNA from E.",
+            "coli and Analysis by Agarose gel electrophoresis.",
+            "Estimation of DNA using colorimeter (Diphenylamine reagent), UV spectrophotometer (A260 measurement)."
+          ]
+        },
+        {
+          "Unit_Number": 3,
+          "Unit_Name": "Methods Of Protein Separation",
+          "Topics": [
+            "Resolution and visualization of proteins by polyacrylamide gel electrophoresis (SDS-PAGE) – Demonstration.",
+            "UV induced auxotrophic mutant production and isolation of mutants by replica plating technique – Demonstration."
+          ]
+        },
+        {
+          "Unit_Number": 4,
+          "Unit_Name": "Rtificial Transformation Method",
+          "Topics": [
+            "Perform artificial Transformation in E.",
+            "coli.",
+            "Isolation of antibiotic resistant mutants by gradient plate method.",
+            "- Demonstration"
+          ]
+        },
+        {
+          "Unit_Number": 5,
+          "Unit_Name": "Outline The Role Of Phages In Genetics",
+          "Topics": [
+            "Screening and isolation of phages from sewage.",
+            "Isolation of RNA from yeast.",
+            "Estimation of RNA using colorimeter (Orcinol)"
+          ]
+        }
+      ],
+      "resources": {
+        "text_books": [
+          "Crichton. M. (2014). Essentials of Biotechnology. Scientific International Pvt Ltd.New Delhi.",
+          "Sambrook J. and Russell D.W. (2001). Molecular Cloning - A Laboratory Manual – 7th Edition. Cold Spring Harbor, N.Y: Cold Spring Harbor Laboratory Press.",
+          "Dale J. W., Schantz M. V. and Plant N. (2012). From Gene to Genomes – Concepts and Applications of DNA Technology. (3rd Edition). John Wileys and Sons Ltd.",
+          "Gunasekaran P. (2007). Laboratory Manual in Microbiology. New Age International.",
+          "James G Cappucino. and Natalie Sherman. (2016). Microbiology – A laboratory manual. (5th Edition). The Benjamin publishing company. New York."
+        ],
+        "reference_books": [
+          "Glick B. R. and Patten C.L. Molecular Biotechnology – Principles and Applications of Recombinant DNA. 5th Edition. ASM Press. 2018.",
+          "Russell P.J. (2010). iGenetics - A Molecular Approach, 3rd Edition., Pearson New International edn.",
+          "Nelson, D.L. and Cox, M.M. Lehninger(2017). Principles of Biochemistry. 7th",
+          "Synder L., Peters J. E., Henkin T.M. and Champness W. (2013). Molecular Genetics of Bacteria, 4th edition, ASM Press Washington-D.C. ASM Press.",
+          "Brown T.A. (2016). Gene Cloning and DNA Analysis. (7th Edition). John Wiley and Jones, Ltd."
+        ],
+        "web_resources": [
+          "https://www.molbiotools.com/usefullinks.html",
+          "(PDF) Molecular Biology Laboratory manual (researchgate.net)",
+          "https://www.molbiotools.com/usefullinks.html",
+          "https://geneticgenie.org3.",
+          "https://currentprotocols.onlinelibrary.wiley.com/doi/pdf/10.1002/cpet.5"
+        ]
+      },
+      "course_outcomes": {
+        "1": "Illustrate different types of DNA and RNA.",
+        "2": "Utilize hands-on training in isolation of genomic and plasmid DNA.",
+        "3": "Analyze importance of experimental microbial genetics.",
+        "4": "Apply the knowledge of molecular techniques in various fields.",
+        "5": "Investigate the significance of Phages."
+      }
+    }
+  }
+}
