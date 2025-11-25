@@ -1,5 +1,4 @@
-"""
-PDF Syllabus Extractor
+"""PDF Syllabus Extractor
 Extracts syllabus structure from PDF files and generates syllabus.json
 """
 
@@ -519,3 +518,4 @@ if __name__ == "__main__":
         print("   Run: python app.py")
     else:
         print("⚠️  Please fix the errors and try again.")
+
